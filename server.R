@@ -8,10 +8,10 @@ getData <- function(name) {
          Volume = trees$Volume)
 }
 
-# Define server logic required to draw a histogram
+# Define server logic required to draw a plot
 shinyServer(function(input, output) {
   
-  # Expression that generates a histogram. The expression is
+  # Expression that generates a plot The expression is
   # wrapped in a call to renderPlot to indicate that:
   #
   #  1) It is "reactive" and therefore should be automatically
